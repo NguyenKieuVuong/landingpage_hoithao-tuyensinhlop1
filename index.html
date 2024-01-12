@@ -63,8 +63,6 @@ CÙNG CON VỮNG VÀNG BƯỚC VÀO LỚP 1"
     />
     <link rel="stylesheet" href="/css/bootstrap.min.css" />
     <link rel="stylesheet" href="/css/font-awesome.min.css" />
-    <link href="/css/slick-theme.css" rel="stylesheet" />
-    <link href="/css/slick.css" rel="stylesheet" />
     <link
       rel="stylesheet"
       href="https://cdn.rawgit.com/daneden/animate.css/v3.1.0/animate.min.css"
@@ -521,24 +519,12 @@ CÙNG CON VỮNG VÀNG BƯỚC VÀO LỚP 1"
 
     <!-- Modal -->
 
-    <a class="chatzalo" href="https://zalo.me/g/geftfq932">
+    <a class="chatzalo" href="#">
       <img class="" alt="zalo room" src="/images/zalo-transparent.png" />
     </a>
 
     <script type="text/javascript" src="/js/jquery-3.4.1.min.js"></script>
-    <script
-      type="text/javascript"
-      src="https://cdn.jsdelivr.net/momentjs/latest/moment-with-locales.min.js"
-    ></script>
-    <script
-      type="text/javascript"
-      src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"
-    ></script>
-    <link
-      rel="stylesheet "
-      type="text/css"
-      href="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css"
-    />
+  
 
     <script type="text/javascript" src="/js/popper.min.js"></script>
     <script type="text/javascript" src="/js/bootstrap.min.js"></script>
@@ -589,21 +575,7 @@ CÙNG CON VỮNG VÀNG BƯỚC VÀO LỚP 1"
           },
         });
 
-        moment.locale("vi");
-        $('input[name="dates"]').daterangepicker({
-          singleDatePicker: true,
-          autoApply: true,
-          startDate: moment(),
-          locale: {
-            format: "DD/MM/YYYY",
-          },
-        });
-        $('input[name="dates"]').on(
-          "apply.daterangepicker",
-          function (ev, picker) {
-            $(this).val(picker.startDate.format("DD/MM/YYYY"));
-          }
-        );
+       
 
         $(".clickid").on("click", function () {
           var idgo = $(this).attr("data-href");
