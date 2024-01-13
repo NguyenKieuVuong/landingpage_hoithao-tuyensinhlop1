@@ -125,7 +125,7 @@ html {
 }
 
 .-bg-color {
-  background-color: #000;
+  background-color: #8f1b1c;
 }
 
 .-bg-color-1 {
@@ -133,7 +133,7 @@ html {
 }
 
 .-bg-color-2 {
-  background-color: #ffe447;
+  background-color: #fdf003;
 }
 
 .-bg-color-3 {
@@ -159,16 +159,16 @@ html {
 }
 
 .-bg-image-1 {
-  background-image: url(/images/bg-app.png);
+  background-image: url(/images/pattern-school-color.png);
   background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-size: auto;
+  background-repeat: repeat;
 }
 
 .-bg-image-2 {
-  background-image: url(/images/background_yellow2.png);
+  background-image: url(https://img.freepik.com/premium-vector/abstract-red-background-with-geometric-pattern-lines_24070-451.jpg?w=826);
   background-position: center;
-  background-size: cover;
+  background-size: 100% auto;
   background-repeat: no-repeat;
 }
 .-bg-gradient {
@@ -437,7 +437,6 @@ html {
 
 /* End==========================button-back to top=================================== */
 
-
 /*-----------------------end-------------------------------*/
 
 /*responsive*/
@@ -478,5 +477,3 @@ html {
   /* border-radius: 50%;*/
   /*box-shadow: 0 5px 5px rgb(0 0 0 / 10%);*/
 }
-
-
