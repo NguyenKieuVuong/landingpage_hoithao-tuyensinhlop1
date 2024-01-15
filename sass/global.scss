@@ -77,7 +77,7 @@ html {
   .title-header {
     font-weight: 600;
     letter-spacing: 1px;
-    color: #ed232a;
+   
   }
 
   .title-title {
@@ -86,6 +86,7 @@ html {
     font-size: 1.25rem;
     line-height: 1.5;
     padding: 0.5rem 0;
+    color: #8f1b1c;
   }
   p {
     margin-bottom: 0;
@@ -159,7 +160,7 @@ html {
 }
 
 .-bg-image-1 {
-  background-image: url(./images/pattern-school-color.png);
+  background-image: url(../images/pattern-school-color.png);
   background-position: center;
   background-size: auto;
   background-repeat: repeat;
