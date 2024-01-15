@@ -206,6 +206,10 @@ html {
   padding: 2rem 0;
 }
 
+#section-two .block-title .title-title {
+  color: #fff;
+}
+
 #section-three .box-button-register {
   margin-top: 3rem;
 }
